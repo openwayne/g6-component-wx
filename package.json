@@ -1,6 +1,6 @@
 {
   "name": "g6-component-wx",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "微信小程序g6组件",
   "files": ["es"],
   "keywords": ["G6", "G6Mobile", "Wechat"],
@@ -33,8 +33,7 @@
     "stylelint-config-standard": "^18.2.0",
     "typescript": "^3.6.4"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "scripts": {
     "lint-staged": "lint-staged",
     "build": "NODE_ENV=production node scripts/compiler.js",
